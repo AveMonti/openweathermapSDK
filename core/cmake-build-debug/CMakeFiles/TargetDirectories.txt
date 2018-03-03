@@ -1,0 +1,3 @@
+/Users/chojnacm/workspace/cpp/openweathermapSDK/core/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/chojnacm/workspace/cpp/openweathermapSDK/core/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/chojnacm/workspace/cpp/openweathermapSDK/core/cmake-build-debug/CMakeFiles/core.dir
