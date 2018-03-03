@@ -19,7 +19,7 @@ class Result {
     Coord *coord;
     Weather *weather;
     std::string base;
-    Weather *main;
+    MainInfo *main;
     Wind *wind;
     Clouds *clouds;
     int dt;
@@ -28,7 +28,19 @@ class Result {
     std::string name;
     int code;
 public:
-    Result(Clouds _coord, Weather _weather, std::string _base );
+    Result(Coord *_coord, Weather *_weather, std::string _base, MainInfo *_main, Wind *_wind, Clouds *_clounds, int _dt, Sys *_sys,
+           int _id, std::string _name, int _code);
+    Coord getCoord();
+    Weather getWeather();
+    std::string getBase();
+    MainInfo getMain();
+    Wind getWind();
+    Clouds getClouds();
+    int getDt();
+    Sys getSys();
+    int getId();
+    std::string getName();
+    int getCode();
 };
 
 
