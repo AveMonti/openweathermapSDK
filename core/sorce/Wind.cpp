@@ -5,10 +5,7 @@
 #include "../include/Wind.h"
 
 
-Wind::Wind(float _speed, int _deg) {
-    speed = _speed;
-    deg = _deg;
-}
+Wind::Wind(float _speed, int _deg): speed(_speed), deg(_deg){}
 
 float Wind::getSpeed() {
     return speed;

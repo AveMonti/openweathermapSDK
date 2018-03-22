@@ -5,15 +5,13 @@
 #include "../include/MainInfo.h"
 
 MainInfo::MainInfo(float _temp, float _pressure, float _humidity, float _temp_min, float _temp_max, float _sea_level,
-                 float _grind_level) {
-    temp = _temp;
-    pressure = _pressure;
-    humidity = _humidity;
-    temp_min = _temp_min;
-    temp_max = _temp_max;
-    sea_level = _sea_level;
-    grind_level = _grind_level;
-}
+                 float _grind_level): temp(_temp),
+                                      pressure(_pressure),
+                                      humidity(_humidity),
+                                      temp_min(_temp_min),
+                                      temp_max(_temp_max),
+                                      sea_level(_sea_level),
+                                      grind_level(_grind_level){}
 
 float MainInfo::getTemp() {
     return temp;

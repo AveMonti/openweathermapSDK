@@ -4,14 +4,9 @@
 
 #include "../include/ValueWeather.h"
 
-ValueWeather::ValueWeather(int _id, std::string _main,
-std::string _description,
-        std::string _incon){
-    id = _id;
-    main = _main;
-    description = _description;
-    icon = _incon;
-}
+ValueWeather::ValueWeather(int _id, std::string _main, std::string _description, std::string _incon): id(_id), main(_main),
+                                                                                                      description(_description),
+                                                                                                      icon(_incon){}
 
 int ValueWeather::getId(){
     return id;
