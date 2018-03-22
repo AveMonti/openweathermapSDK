@@ -48,13 +48,70 @@ RM = /Applications/CLion.app/Contents/bin/cmake/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/chojnacm/workspace/cpp/openweathermapSDK/core
+CMAKE_SOURCE_DIR = /Users/chojnacm/Desktop/openweathermapSDK/core
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/chojnacm/workspace/cpp/openweathermapSDK/core/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/chojnacm/Desktop/openweathermapSDK/core/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
+
+# Special rule for the target install/local
+install/local: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
+	/Applications/CLion.app/Contents/bin/cmake/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+.PHONY : install/local
+
+# Special rule for the target install/local
+install/local/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
+	/Applications/CLion.app/Contents/bin/cmake/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+.PHONY : install/local/fast
+
+# Special rule for the target install/strip
+install/strip: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
+	/Applications/CLion.app/Contents/bin/cmake/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+.PHONY : install/strip
+
+# Special rule for the target install/strip
+install/strip/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
+	/Applications/CLion.app/Contents/bin/cmake/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+.PHONY : install/strip/fast
+
+# Special rule for the target install
+install: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
+	/Applications/CLion.app/Contents/bin/cmake/bin/cmake -P cmake_install.cmake
+.PHONY : install
+
+# Special rule for the target install
+install/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
+	/Applications/CLion.app/Contents/bin/cmake/bin/cmake -P cmake_install.cmake
+.PHONY : install/fast
+
+# Special rule for the target list_install_components
+list_install_components:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Devel\" \"Unspecified\""
+.PHONY : list_install_components
+
+# Special rule for the target list_install_components
+list_install_components/fast: list_install_components
+
+.PHONY : list_install_components/fast
+
+# Special rule for the target package_source
+package_source:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
+	/Applications/CLion.app/Contents/bin/cmake/bin/cpack --config ./CPackSourceConfig.cmake /Users/chojnacm/Desktop/openweathermapSDK/core/cmake-build-debug/CPackSourceConfig.cmake
+.PHONY : package_source
+
+# Special rule for the target package_source
+package_source/fast: package_source
+
+.PHONY : package_source/fast
 
 # Special rule for the target rebuild_cache
 rebuild_cache:
@@ -78,11 +135,22 @@ edit_cache/fast: edit_cache
 
 .PHONY : edit_cache/fast
 
+# Special rule for the target package
+package: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool..."
+	/Applications/CLion.app/Contents/bin/cmake/bin/cpack --config ./CPackConfig.cmake
+.PHONY : package
+
+# Special rule for the target package
+package/fast: package
+
+.PHONY : package/fast
+
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/chojnacm/workspace/cpp/openweathermapSDK/core/cmake-build-debug/CMakeFiles /Users/chojnacm/workspace/cpp/openweathermapSDK/core/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/chojnacm/Desktop/openweathermapSDK/core/cmake-build-debug/CMakeFiles /Users/chojnacm/Desktop/openweathermapSDK/core/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/chojnacm/workspace/cpp/openweathermapSDK/core/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/chojnacm/Desktop/openweathermapSDK/core/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -122,6 +190,201 @@ core: cmake_check_build_system
 core/fast:
 	$(MAKE) -f CMakeFiles/core.dir/build.make CMakeFiles/core.dir/build
 .PHONY : core/fast
+
+#=============================================================================
+# Target rules for targets named uninstall
+
+# Build rule for target.
+uninstall: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 uninstall
+.PHONY : uninstall
+
+# fast build rule for target.
+uninstall/fast:
+	$(MAKE) -f poco/CMakeFiles/uninstall.dir/build.make poco/CMakeFiles/uninstall.dir/build
+.PHONY : uninstall/fast
+
+#=============================================================================
+# Target rules for targets named CppUnit
+
+# Build rule for target.
+CppUnit: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 CppUnit
+.PHONY : CppUnit
+
+# fast build rule for target.
+CppUnit/fast:
+	$(MAKE) -f poco/CppUnit/CMakeFiles/CppUnit.dir/build.make poco/CppUnit/CMakeFiles/CppUnit.dir/build
+.PHONY : CppUnit/fast
+
+#=============================================================================
+# Target rules for targets named Foundation
+
+# Build rule for target.
+Foundation: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Foundation
+.PHONY : Foundation
+
+# fast build rule for target.
+Foundation/fast:
+	$(MAKE) -f poco/Foundation/CMakeFiles/Foundation.dir/build.make poco/Foundation/CMakeFiles/Foundation.dir/build
+.PHONY : Foundation/fast
+
+#=============================================================================
+# Target rules for targets named Encodings
+
+# Build rule for target.
+Encodings: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Encodings
+.PHONY : Encodings
+
+# fast build rule for target.
+Encodings/fast:
+	$(MAKE) -f poco/Encodings/CMakeFiles/Encodings.dir/build.make poco/Encodings/CMakeFiles/Encodings.dir/build
+.PHONY : Encodings/fast
+
+#=============================================================================
+# Target rules for targets named XML
+
+# Build rule for target.
+XML: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 XML
+.PHONY : XML
+
+# fast build rule for target.
+XML/fast:
+	$(MAKE) -f poco/XML/CMakeFiles/XML.dir/build.make poco/XML/CMakeFiles/XML.dir/build
+.PHONY : XML/fast
+
+#=============================================================================
+# Target rules for targets named JSON
+
+# Build rule for target.
+JSON: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 JSON
+.PHONY : JSON
+
+# fast build rule for target.
+JSON/fast:
+	$(MAKE) -f poco/JSON/CMakeFiles/JSON.dir/build.make poco/JSON/CMakeFiles/JSON.dir/build
+.PHONY : JSON/fast
+
+#=============================================================================
+# Target rules for targets named MongoDB
+
+# Build rule for target.
+MongoDB: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 MongoDB
+.PHONY : MongoDB
+
+# fast build rule for target.
+MongoDB/fast:
+	$(MAKE) -f poco/MongoDB/CMakeFiles/MongoDB.dir/build.make poco/MongoDB/CMakeFiles/MongoDB.dir/build
+.PHONY : MongoDB/fast
+
+#=============================================================================
+# Target rules for targets named Util
+
+# Build rule for target.
+Util: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Util
+.PHONY : Util
+
+# fast build rule for target.
+Util/fast:
+	$(MAKE) -f poco/Util/CMakeFiles/Util.dir/build.make poco/Util/CMakeFiles/Util.dir/build
+.PHONY : Util/fast
+
+#=============================================================================
+# Target rules for targets named Net
+
+# Build rule for target.
+Net: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Net
+.PHONY : Net
+
+# fast build rule for target.
+Net/fast:
+	$(MAKE) -f poco/Net/CMakeFiles/Net.dir/build.make poco/Net/CMakeFiles/Net.dir/build
+.PHONY : Net/fast
+
+#=============================================================================
+# Target rules for targets named SQL
+
+# Build rule for target.
+SQL: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 SQL
+.PHONY : SQL
+
+# fast build rule for target.
+SQL/fast:
+	$(MAKE) -f poco/SQL/CMakeFiles/SQL.dir/build.make poco/SQL/CMakeFiles/SQL.dir/build
+.PHONY : SQL/fast
+
+#=============================================================================
+# Target rules for targets named SQLSQLite
+
+# Build rule for target.
+SQLSQLite: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 SQLSQLite
+.PHONY : SQLSQLite
+
+# fast build rule for target.
+SQLSQLite/fast:
+	$(MAKE) -f poco/SQL/SQLite/CMakeFiles/SQLSQLite.dir/build.make poco/SQL/SQLite/CMakeFiles/SQLSQLite.dir/build
+.PHONY : SQLSQLite/fast
+
+#=============================================================================
+# Target rules for targets named Zip
+
+# Build rule for target.
+Zip: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Zip
+.PHONY : Zip
+
+# fast build rule for target.
+Zip/fast:
+	$(MAKE) -f poco/Zip/CMakeFiles/Zip.dir/build.make poco/Zip/CMakeFiles/Zip.dir/build
+.PHONY : Zip/fast
+
+#=============================================================================
+# Target rules for targets named Redis
+
+# Build rule for target.
+Redis: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Redis
+.PHONY : Redis
+
+# fast build rule for target.
+Redis/fast:
+	$(MAKE) -f poco/Redis/CMakeFiles/Redis.dir/build.make poco/Redis/CMakeFiles/Redis.dir/build
+.PHONY : Redis/fast
+
+#=============================================================================
+# Target rules for targets named PageCompiler
+
+# Build rule for target.
+PageCompiler: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 PageCompiler
+.PHONY : PageCompiler
+
+# fast build rule for target.
+PageCompiler/fast:
+	$(MAKE) -f poco/PageCompiler/CMakeFiles/PageCompiler.dir/build.make poco/PageCompiler/CMakeFiles/PageCompiler.dir/build
+.PHONY : PageCompiler/fast
+
+#=============================================================================
+# Target rules for targets named File2Page
+
+# Build rule for target.
+File2Page: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 File2Page
+.PHONY : File2Page
+
+# fast build rule for target.
+File2Page/fast:
+	$(MAKE) -f poco/PageCompiler/File2Page/CMakeFiles/File2Page.dir/build.make poco/PageCompiler/File2Page/CMakeFiles/File2Page.dir/build
+.PHONY : File2Page/fast
 
 main.o: main.cpp.o
 
@@ -399,9 +662,30 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
+	@echo "... install/local"
+	@echo "... install/strip"
+	@echo "... install"
+	@echo "... list_install_components"
+	@echo "... package_source"
 	@echo "... rebuild_cache"
-	@echo "... edit_cache"
 	@echo "... core"
+	@echo "... edit_cache"
+	@echo "... package"
+	@echo "... uninstall"
+	@echo "... CppUnit"
+	@echo "... Foundation"
+	@echo "... Encodings"
+	@echo "... XML"
+	@echo "... JSON"
+	@echo "... MongoDB"
+	@echo "... Util"
+	@echo "... Net"
+	@echo "... SQL"
+	@echo "... SQLSQLite"
+	@echo "... Zip"
+	@echo "... Redis"
+	@echo "... PageCompiler"
+	@echo "... File2Page"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

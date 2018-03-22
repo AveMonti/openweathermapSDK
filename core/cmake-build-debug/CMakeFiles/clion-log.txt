@@ -1,4 +1,52 @@
-/Applications/CLion.app/Contents/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /Users/chojnacm/workspace/cpp/openweathermapSDK/core
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /Users/chojnacm/Desktop/openweathermapSDK/core
+-- Poco package version: 2.0.0
+-- Checking for C++14 compiler
+-- Checking for C++14 compiler - available
+-- OpenSSL not found
+-- Disable NetSSL and Crypto support
+-- Building dynamic libraries
+-- Building without tests
+-- Building without samples
+-- Build with using internal copy of sqlite, libz, pcre, expat, ...
+-- Couldn't find MySQL or MariaDB
+-- MySQL Support Disabled - no MySQL library
+-- Could NOT find PostgreSQL (missing: PostgreSQL_INCLUDE_DIR PostgreSQL_TYPE_INCLUDE_DIR) 
+-- PostgreSQL Support Disabled - no PostgreSQL library
+-- Could NOT find ODBC (missing: ODBC_INCLUDE_DIRECTORIES) 
+-- ODBC Support Disabled - no ODBC runtime
+-- Found APR: /usr/lib/libapr-1.dylib
+-- Found APRUTIL: /usr/lib/libaprutil-1.dylib
+-- Found APACHE: /usr/include/apache2
+-- CMake 3.9.6 successfully configured Poco using Unix Makefiles generator
+-- Installation target path: /usr/local
+-- 
+-- Generated with config types: 
+-- Setting Poco build type - Debug
+-- 
+-- C_FLAGS:  =
+-- CMAKE_C_FLAGS_DEBUG:=-g   -D_DEBUG
+-- CMAKE_C_FLAGS_RELEASE:=-O3 -DNDEBUG
+-- CMAKE_C_FLAGS_MINSIZEREL:=-Os -DNDEBUG
+-- CMAKE_C_FLAGS_RELWITHDEBINFO:=-O2 -g -DNDEBUG
+-- 
+-- 
+-- CXX_FLAGS:=
+-- CMAKE_CXX_FLAGS_DEBUG:=-g -D_DEBUG
+-- CMAKE_CXX_FLAGS_RELEASE:=-O3 -DNDEBUG
+-- CMAKE_CXX_FLAGS_MINSIZEREL:=-Os -DNDEBUG
+-- CMAKE_CXX_FLAGS_RELWITHDEBINFO:=-O2 -g -DNDEBUG
+-- Building: CppUnit
+-- Building: Encodings
+-- Building: XML
+-- Building: JSON
+-- Building: MongoDB
+-- Building: Util
+-- Building: Net
+-- Building: SQL
+-- Building: Zip
+-- Building: Redis
+-- Building: PageCompiler
+-- Building: File2Page
 -- Configuring done
 -- Generating done
--- Build files have been written to: /Users/chojnacm/workspace/cpp/openweathermapSDK/core/cmake-build-debug
+-- Build files have been written to: /Users/chojnacm/Desktop/openweathermapSDK/core/cmake-build-debug

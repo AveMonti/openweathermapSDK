@@ -43,10 +43,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/chojnacm/workspace/cpp/openweathermapSDK/core
+CMAKE_SOURCE_DIR = /Users/chojnacm/Desktop/openweathermapSDK/core
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/chojnacm/workspace/cpp/openweathermapSDK/core/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/chojnacm/Desktop/openweathermapSDK/core/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/core.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/core.dir/flags.make
 
 CMakeFiles/core.dir/main.cpp.o: CMakeFiles/core.dir/flags.make
 CMakeFiles/core.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/chojnacm/workspace/cpp/openweathermapSDK/core/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/core.dir/main.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/core.dir/main.cpp.o -c /Users/chojnacm/workspace/cpp/openweathermapSDK/core/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/chojnacm/Desktop/openweathermapSDK/core/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/core.dir/main.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/core.dir/main.cpp.o -c /Users/chojnacm/Desktop/openweathermapSDK/core/main.cpp
 
 CMakeFiles/core.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/core.dir/main.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/chojnacm/workspace/cpp/openweathermapSDK/core/main.cpp > CMakeFiles/core.dir/main.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/chojnacm/Desktop/openweathermapSDK/core/main.cpp > CMakeFiles/core.dir/main.cpp.i
 
 CMakeFiles/core.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/core.dir/main.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/chojnacm/workspace/cpp/openweathermapSDK/core/main.cpp -o CMakeFiles/core.dir/main.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/chojnacm/Desktop/openweathermapSDK/core/main.cpp -o CMakeFiles/core.dir/main.cpp.s
 
 CMakeFiles/core.dir/main.cpp.o.requires:
 
@@ -83,16 +83,16 @@ CMakeFiles/core.dir/main.cpp.o.provides.build: CMakeFiles/core.dir/main.cpp.o
 
 CMakeFiles/core.dir/sorce/Weather.cpp.o: CMakeFiles/core.dir/flags.make
 CMakeFiles/core.dir/sorce/Weather.cpp.o: ../sorce/Weather.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/chojnacm/workspace/cpp/openweathermapSDK/core/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/core.dir/sorce/Weather.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/core.dir/sorce/Weather.cpp.o -c /Users/chojnacm/workspace/cpp/openweathermapSDK/core/sorce/Weather.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/chojnacm/Desktop/openweathermapSDK/core/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/core.dir/sorce/Weather.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/core.dir/sorce/Weather.cpp.o -c /Users/chojnacm/Desktop/openweathermapSDK/core/sorce/Weather.cpp
 
 CMakeFiles/core.dir/sorce/Weather.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/core.dir/sorce/Weather.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/chojnacm/workspace/cpp/openweathermapSDK/core/sorce/Weather.cpp > CMakeFiles/core.dir/sorce/Weather.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/chojnacm/Desktop/openweathermapSDK/core/sorce/Weather.cpp > CMakeFiles/core.dir/sorce/Weather.cpp.i
 
 CMakeFiles/core.dir/sorce/Weather.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/core.dir/sorce/Weather.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/chojnacm/workspace/cpp/openweathermapSDK/core/sorce/Weather.cpp -o CMakeFiles/core.dir/sorce/Weather.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/chojnacm/Desktop/openweathermapSDK/core/sorce/Weather.cpp -o CMakeFiles/core.dir/sorce/Weather.cpp.s
 
 CMakeFiles/core.dir/sorce/Weather.cpp.o.requires:
 
@@ -107,16 +107,16 @@ CMakeFiles/core.dir/sorce/Weather.cpp.o.provides.build: CMakeFiles/core.dir/sorc
 
 CMakeFiles/core.dir/sorce/Wind.cpp.o: CMakeFiles/core.dir/flags.make
 CMakeFiles/core.dir/sorce/Wind.cpp.o: ../sorce/Wind.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/chojnacm/workspace/cpp/openweathermapSDK/core/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/core.dir/sorce/Wind.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/core.dir/sorce/Wind.cpp.o -c /Users/chojnacm/workspace/cpp/openweathermapSDK/core/sorce/Wind.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/chojnacm/Desktop/openweathermapSDK/core/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/core.dir/sorce/Wind.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/core.dir/sorce/Wind.cpp.o -c /Users/chojnacm/Desktop/openweathermapSDK/core/sorce/Wind.cpp
 
 CMakeFiles/core.dir/sorce/Wind.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/core.dir/sorce/Wind.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/chojnacm/workspace/cpp/openweathermapSDK/core/sorce/Wind.cpp > CMakeFiles/core.dir/sorce/Wind.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/chojnacm/Desktop/openweathermapSDK/core/sorce/Wind.cpp > CMakeFiles/core.dir/sorce/Wind.cpp.i
 
 CMakeFiles/core.dir/sorce/Wind.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/core.dir/sorce/Wind.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/chojnacm/workspace/cpp/openweathermapSDK/core/sorce/Wind.cpp -o CMakeFiles/core.dir/sorce/Wind.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/chojnacm/Desktop/openweathermapSDK/core/sorce/Wind.cpp -o CMakeFiles/core.dir/sorce/Wind.cpp.s
 
 CMakeFiles/core.dir/sorce/Wind.cpp.o.requires:
 
@@ -131,16 +131,16 @@ CMakeFiles/core.dir/sorce/Wind.cpp.o.provides.build: CMakeFiles/core.dir/sorce/W
 
 CMakeFiles/core.dir/sorce/Clouds.cpp.o: CMakeFiles/core.dir/flags.make
 CMakeFiles/core.dir/sorce/Clouds.cpp.o: ../sorce/Clouds.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/chojnacm/workspace/cpp/openweathermapSDK/core/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/core.dir/sorce/Clouds.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/core.dir/sorce/Clouds.cpp.o -c /Users/chojnacm/workspace/cpp/openweathermapSDK/core/sorce/Clouds.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/chojnacm/Desktop/openweathermapSDK/core/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/core.dir/sorce/Clouds.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/core.dir/sorce/Clouds.cpp.o -c /Users/chojnacm/Desktop/openweathermapSDK/core/sorce/Clouds.cpp
 
 CMakeFiles/core.dir/sorce/Clouds.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/core.dir/sorce/Clouds.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/chojnacm/workspace/cpp/openweathermapSDK/core/sorce/Clouds.cpp > CMakeFiles/core.dir/sorce/Clouds.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/chojnacm/Desktop/openweathermapSDK/core/sorce/Clouds.cpp > CMakeFiles/core.dir/sorce/Clouds.cpp.i
 
 CMakeFiles/core.dir/sorce/Clouds.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/core.dir/sorce/Clouds.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/chojnacm/workspace/cpp/openweathermapSDK/core/sorce/Clouds.cpp -o CMakeFiles/core.dir/sorce/Clouds.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/chojnacm/Desktop/openweathermapSDK/core/sorce/Clouds.cpp -o CMakeFiles/core.dir/sorce/Clouds.cpp.s
 
 CMakeFiles/core.dir/sorce/Clouds.cpp.o.requires:
 
@@ -155,16 +155,16 @@ CMakeFiles/core.dir/sorce/Clouds.cpp.o.provides.build: CMakeFiles/core.dir/sorce
 
 CMakeFiles/core.dir/sorce/Sys.cpp.o: CMakeFiles/core.dir/flags.make
 CMakeFiles/core.dir/sorce/Sys.cpp.o: ../sorce/Sys.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/chojnacm/workspace/cpp/openweathermapSDK/core/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/core.dir/sorce/Sys.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/core.dir/sorce/Sys.cpp.o -c /Users/chojnacm/workspace/cpp/openweathermapSDK/core/sorce/Sys.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/chojnacm/Desktop/openweathermapSDK/core/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/core.dir/sorce/Sys.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/core.dir/sorce/Sys.cpp.o -c /Users/chojnacm/Desktop/openweathermapSDK/core/sorce/Sys.cpp
 
 CMakeFiles/core.dir/sorce/Sys.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/core.dir/sorce/Sys.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/chojnacm/workspace/cpp/openweathermapSDK/core/sorce/Sys.cpp > CMakeFiles/core.dir/sorce/Sys.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/chojnacm/Desktop/openweathermapSDK/core/sorce/Sys.cpp > CMakeFiles/core.dir/sorce/Sys.cpp.i
 
 CMakeFiles/core.dir/sorce/Sys.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/core.dir/sorce/Sys.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/chojnacm/workspace/cpp/openweathermapSDK/core/sorce/Sys.cpp -o CMakeFiles/core.dir/sorce/Sys.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/chojnacm/Desktop/openweathermapSDK/core/sorce/Sys.cpp -o CMakeFiles/core.dir/sorce/Sys.cpp.s
 
 CMakeFiles/core.dir/sorce/Sys.cpp.o.requires:
 
@@ -179,16 +179,16 @@ CMakeFiles/core.dir/sorce/Sys.cpp.o.provides.build: CMakeFiles/core.dir/sorce/Sy
 
 CMakeFiles/core.dir/sorce/Coord.cpp.o: CMakeFiles/core.dir/flags.make
 CMakeFiles/core.dir/sorce/Coord.cpp.o: ../sorce/Coord.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/chojnacm/workspace/cpp/openweathermapSDK/core/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/core.dir/sorce/Coord.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/core.dir/sorce/Coord.cpp.o -c /Users/chojnacm/workspace/cpp/openweathermapSDK/core/sorce/Coord.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/chojnacm/Desktop/openweathermapSDK/core/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/core.dir/sorce/Coord.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/core.dir/sorce/Coord.cpp.o -c /Users/chojnacm/Desktop/openweathermapSDK/core/sorce/Coord.cpp
 
 CMakeFiles/core.dir/sorce/Coord.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/core.dir/sorce/Coord.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/chojnacm/workspace/cpp/openweathermapSDK/core/sorce/Coord.cpp > CMakeFiles/core.dir/sorce/Coord.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/chojnacm/Desktop/openweathermapSDK/core/sorce/Coord.cpp > CMakeFiles/core.dir/sorce/Coord.cpp.i
 
 CMakeFiles/core.dir/sorce/Coord.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/core.dir/sorce/Coord.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/chojnacm/workspace/cpp/openweathermapSDK/core/sorce/Coord.cpp -o CMakeFiles/core.dir/sorce/Coord.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/chojnacm/Desktop/openweathermapSDK/core/sorce/Coord.cpp -o CMakeFiles/core.dir/sorce/Coord.cpp.s
 
 CMakeFiles/core.dir/sorce/Coord.cpp.o.requires:
 
@@ -203,16 +203,16 @@ CMakeFiles/core.dir/sorce/Coord.cpp.o.provides.build: CMakeFiles/core.dir/sorce/
 
 CMakeFiles/core.dir/sorce/Vector2d.cpp.o: CMakeFiles/core.dir/flags.make
 CMakeFiles/core.dir/sorce/Vector2d.cpp.o: ../sorce/Vector2d.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/chojnacm/workspace/cpp/openweathermapSDK/core/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/core.dir/sorce/Vector2d.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/core.dir/sorce/Vector2d.cpp.o -c /Users/chojnacm/workspace/cpp/openweathermapSDK/core/sorce/Vector2d.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/chojnacm/Desktop/openweathermapSDK/core/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/core.dir/sorce/Vector2d.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/core.dir/sorce/Vector2d.cpp.o -c /Users/chojnacm/Desktop/openweathermapSDK/core/sorce/Vector2d.cpp
 
 CMakeFiles/core.dir/sorce/Vector2d.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/core.dir/sorce/Vector2d.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/chojnacm/workspace/cpp/openweathermapSDK/core/sorce/Vector2d.cpp > CMakeFiles/core.dir/sorce/Vector2d.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/chojnacm/Desktop/openweathermapSDK/core/sorce/Vector2d.cpp > CMakeFiles/core.dir/sorce/Vector2d.cpp.i
 
 CMakeFiles/core.dir/sorce/Vector2d.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/core.dir/sorce/Vector2d.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/chojnacm/workspace/cpp/openweathermapSDK/core/sorce/Vector2d.cpp -o CMakeFiles/core.dir/sorce/Vector2d.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/chojnacm/Desktop/openweathermapSDK/core/sorce/Vector2d.cpp -o CMakeFiles/core.dir/sorce/Vector2d.cpp.s
 
 CMakeFiles/core.dir/sorce/Vector2d.cpp.o.requires:
 
@@ -227,16 +227,16 @@ CMakeFiles/core.dir/sorce/Vector2d.cpp.o.provides.build: CMakeFiles/core.dir/sor
 
 CMakeFiles/core.dir/sorce/Result.cpp.o: CMakeFiles/core.dir/flags.make
 CMakeFiles/core.dir/sorce/Result.cpp.o: ../sorce/Result.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/chojnacm/workspace/cpp/openweathermapSDK/core/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/core.dir/sorce/Result.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/core.dir/sorce/Result.cpp.o -c /Users/chojnacm/workspace/cpp/openweathermapSDK/core/sorce/Result.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/chojnacm/Desktop/openweathermapSDK/core/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/core.dir/sorce/Result.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/core.dir/sorce/Result.cpp.o -c /Users/chojnacm/Desktop/openweathermapSDK/core/sorce/Result.cpp
 
 CMakeFiles/core.dir/sorce/Result.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/core.dir/sorce/Result.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/chojnacm/workspace/cpp/openweathermapSDK/core/sorce/Result.cpp > CMakeFiles/core.dir/sorce/Result.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/chojnacm/Desktop/openweathermapSDK/core/sorce/Result.cpp > CMakeFiles/core.dir/sorce/Result.cpp.i
 
 CMakeFiles/core.dir/sorce/Result.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/core.dir/sorce/Result.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/chojnacm/workspace/cpp/openweathermapSDK/core/sorce/Result.cpp -o CMakeFiles/core.dir/sorce/Result.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/chojnacm/Desktop/openweathermapSDK/core/sorce/Result.cpp -o CMakeFiles/core.dir/sorce/Result.cpp.s
 
 CMakeFiles/core.dir/sorce/Result.cpp.o.requires:
 
@@ -251,16 +251,16 @@ CMakeFiles/core.dir/sorce/Result.cpp.o.provides.build: CMakeFiles/core.dir/sorce
 
 CMakeFiles/core.dir/sorce/MainInfo.cpp.o: CMakeFiles/core.dir/flags.make
 CMakeFiles/core.dir/sorce/MainInfo.cpp.o: ../sorce/MainInfo.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/chojnacm/workspace/cpp/openweathermapSDK/core/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/core.dir/sorce/MainInfo.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/core.dir/sorce/MainInfo.cpp.o -c /Users/chojnacm/workspace/cpp/openweathermapSDK/core/sorce/MainInfo.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/chojnacm/Desktop/openweathermapSDK/core/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/core.dir/sorce/MainInfo.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/core.dir/sorce/MainInfo.cpp.o -c /Users/chojnacm/Desktop/openweathermapSDK/core/sorce/MainInfo.cpp
 
 CMakeFiles/core.dir/sorce/MainInfo.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/core.dir/sorce/MainInfo.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/chojnacm/workspace/cpp/openweathermapSDK/core/sorce/MainInfo.cpp > CMakeFiles/core.dir/sorce/MainInfo.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/chojnacm/Desktop/openweathermapSDK/core/sorce/MainInfo.cpp > CMakeFiles/core.dir/sorce/MainInfo.cpp.i
 
 CMakeFiles/core.dir/sorce/MainInfo.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/core.dir/sorce/MainInfo.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/chojnacm/workspace/cpp/openweathermapSDK/core/sorce/MainInfo.cpp -o CMakeFiles/core.dir/sorce/MainInfo.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/chojnacm/Desktop/openweathermapSDK/core/sorce/MainInfo.cpp -o CMakeFiles/core.dir/sorce/MainInfo.cpp.s
 
 CMakeFiles/core.dir/sorce/MainInfo.cpp.o.requires:
 
@@ -275,16 +275,16 @@ CMakeFiles/core.dir/sorce/MainInfo.cpp.o.provides.build: CMakeFiles/core.dir/sor
 
 CMakeFiles/core.dir/sorce/ValueWeather.cpp.o: CMakeFiles/core.dir/flags.make
 CMakeFiles/core.dir/sorce/ValueWeather.cpp.o: ../sorce/ValueWeather.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/chojnacm/workspace/cpp/openweathermapSDK/core/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/core.dir/sorce/ValueWeather.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/core.dir/sorce/ValueWeather.cpp.o -c /Users/chojnacm/workspace/cpp/openweathermapSDK/core/sorce/ValueWeather.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/chojnacm/Desktop/openweathermapSDK/core/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/core.dir/sorce/ValueWeather.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/core.dir/sorce/ValueWeather.cpp.o -c /Users/chojnacm/Desktop/openweathermapSDK/core/sorce/ValueWeather.cpp
 
 CMakeFiles/core.dir/sorce/ValueWeather.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/core.dir/sorce/ValueWeather.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/chojnacm/workspace/cpp/openweathermapSDK/core/sorce/ValueWeather.cpp > CMakeFiles/core.dir/sorce/ValueWeather.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/chojnacm/Desktop/openweathermapSDK/core/sorce/ValueWeather.cpp > CMakeFiles/core.dir/sorce/ValueWeather.cpp.i
 
 CMakeFiles/core.dir/sorce/ValueWeather.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/core.dir/sorce/ValueWeather.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/chojnacm/workspace/cpp/openweathermapSDK/core/sorce/ValueWeather.cpp -o CMakeFiles/core.dir/sorce/ValueWeather.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/chojnacm/Desktop/openweathermapSDK/core/sorce/ValueWeather.cpp -o CMakeFiles/core.dir/sorce/ValueWeather.cpp.s
 
 CMakeFiles/core.dir/sorce/ValueWeather.cpp.o.requires:
 
@@ -324,8 +324,10 @@ core: CMakeFiles/core.dir/sorce/Result.cpp.o
 core: CMakeFiles/core.dir/sorce/MainInfo.cpp.o
 core: CMakeFiles/core.dir/sorce/ValueWeather.cpp.o
 core: CMakeFiles/core.dir/build.make
+core: lib/libPocoNetd.80.dylib
+core: lib/libPocoFoundationd.80.dylib
 core: CMakeFiles/core.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/chojnacm/workspace/cpp/openweathermapSDK/core/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX executable core"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/chojnacm/Desktop/openweathermapSDK/core/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX executable core"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/core.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -351,6 +353,6 @@ CMakeFiles/core.dir/clean:
 .PHONY : CMakeFiles/core.dir/clean
 
 CMakeFiles/core.dir/depend:
-	cd /Users/chojnacm/workspace/cpp/openweathermapSDK/core/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/chojnacm/workspace/cpp/openweathermapSDK/core /Users/chojnacm/workspace/cpp/openweathermapSDK/core /Users/chojnacm/workspace/cpp/openweathermapSDK/core/cmake-build-debug /Users/chojnacm/workspace/cpp/openweathermapSDK/core/cmake-build-debug /Users/chojnacm/workspace/cpp/openweathermapSDK/core/cmake-build-debug/CMakeFiles/core.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/chojnacm/Desktop/openweathermapSDK/core/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/chojnacm/Desktop/openweathermapSDK/core /Users/chojnacm/Desktop/openweathermapSDK/core /Users/chojnacm/Desktop/openweathermapSDK/core/cmake-build-debug /Users/chojnacm/Desktop/openweathermapSDK/core/cmake-build-debug /Users/chojnacm/Desktop/openweathermapSDK/core/cmake-build-debug/CMakeFiles/core.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/core.dir/depend
 
